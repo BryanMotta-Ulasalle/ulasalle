@@ -1,0 +1,5 @@
+estatura=input('ingrese su estatura: ')
+estatura = int(estatura)
+pesoPromMenor = (estatura-105)
+pesoPromMayor = (estatura-95)
+print(f'su peso promedio debe ser de {pesoPromMenor}kg a {pesoPromMayor}kg')
